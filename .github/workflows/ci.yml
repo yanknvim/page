@@ -1,0 +1,10 @@
+on: [push]
+name: build
+jobs:
+  runhaskell:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: haskell-actions/setup@v2
+      - run: cabal run page -- build

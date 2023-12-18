@@ -1,4 +1,4 @@
 # yank-nvim.com
 Using:
-- Hakyll
+- 11ty
 - Bulma
